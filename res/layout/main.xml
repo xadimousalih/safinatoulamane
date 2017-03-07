@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- Included header.xml here -->
+	<ViewStub android:id="@+id/vsHeader" 
+	    android:inflatedId="@+id/header" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:layout="@layout/header" />
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:background="@drawable/bg"
+	    android:orientation="vertical"
+	    android:padding="6dip" >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <Button android:id="@+id/main_btn_dimanche"
+            style="@style/HomeButton"
+            android:onClick="onButtonClicker"
+            android:text="@string/dimanche"
+            android:drawableTop="@drawable/android_dimanche_logo"/>
+        <Button android:id="@+id/main_btn_lundi"
+            style="@style/HomeButton"
+            android:onClick="onButtonClicker"
+            android:text="@string/lundi"
+            android:drawableTop="@drawable/android__logo_lundi"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <Button android:id="@+id/main_btn_mardi"
+            style="@style/HomeButton"
+            android:onClick="onButtonClicker"
+            android:text="@string/mardi"
+            android:drawableTop="@drawable/android_mardi_logo"/>
+        <Button android:id="@+id/main_btn_mercredi"
+            style="@style/HomeButton"
+            android:onClick="onButtonClicker"
+            android:text="@string/mercredi"
+            android:drawableTop="@drawable/android_mercredi_logo"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <Button android:id="@+id/main_btn_jeudi"
+            style="@style/HomeButton"
+            android:onClick="onButtonClicker"
+            android:text="@string/jeudi"
+            android:drawableTop="@drawable/android_jeudi_logo"/>
+        <Button android:id="@+id/main_btn_vendredi"
+            style="@style/HomeButton"
+            android:onClick="onButtonClicker"
+            android:text="@string/vendredi"
+            android:drawableTop="@drawable/android_vendredi_logo"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <Button android:id="@+id/main_btn_samedi"
+            style="@style/HomeButton"
+            android:onClick="onButtonClicker"
+            android:text="@string/samedi"
+            android:drawableTop="@drawable/android_samedi_logo"/>
+        
+    </LinearLayout>
+    
+</LinearLayout>
+        <include layout="@layout/footer_layout"/>
+	
+
+</LinearLayout>

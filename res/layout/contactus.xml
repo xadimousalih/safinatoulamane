@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical"
+    android:tileMode="repeat" >
+
+    <!-- Included header.xml here -->
+
+    <ViewStub
+        android:id="@+id/vsHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inflatedId="@+id/header"
+        android:layout="@layout/header" />
+
+    <TextView
+        android:id="@+id/navodiloEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ssss"
+        android:textSize="15dip" />
+
+    <EditText
+        android:id="@+id/contactnametextContectUS"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/navodiloEmail" />
+
+    <TextView
+        android:id="@+id/navodiloZadeva"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="qqq"
+        android:textSize="15dip" />
+
+    <EditText
+        android:id="@+id/emailaddresstextContectUS"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/navodiloZadeva" />
+    <TextView
+        android:id="@+id/navodiloZadeva"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="qqq"
+        android:textSize="15dip" />
+
+    <EditText
+        android:id="@+id/commenttextContectUS"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/navodiloZadeva" />
+    
+    <Button
+        android:id="@+id/ButtonLoginContectUS"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sestaviEmail"
+        android:text="Send" />
+
+</LinearLayout>

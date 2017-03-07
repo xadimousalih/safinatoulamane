@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">SafinatoulAmane</string>
+    <string name="app_name">SafinatoulAmane</string>
+    <string name="txtDemo">www.tab28.com </string>
+    <string name="accueil">Cheikh Ahmadou Bamba KHADIMOU RASSOUL</string>
+    <string name="app_about">A Propos</string>
+    <string name="str_exit">Fermer</string>
+    <string name="str_ok">OK</string>
+    <string name="app_exit">Fermer</string>
+    <string name="app_exit_message">Voulez vous fermer cette application</string>
+    <string name="str_no">Non</string>
+        <!-- Activity Titles -->
+    <string name="HomeActivityTitle">Safinatoul Amaane | La pirogue de la confiance</string>
+    <string name="FeedbackActivityTitle">Feedback</string>
+    <string name="dimanche">Dimanche</string>
+    <string name="lundi">Lundi</string>
+    <string name="mardi">Mardi</string>
+    <string name="mercredi">Mercredi</string>
+    <string name="jeudi">Jeudi</string>
+    <string name="vendredi">Vendredi</string>
+    <string name="samedi">Samedi</string>
+
+</resources>
